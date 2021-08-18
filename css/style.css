@@ -559,8 +559,7 @@ button {
 
 /* ============ GET CONSULTATION SECTION START ============ */
 .get-consultation {
-  padding-top: 70px;
-  padding-bottom: 140px;
+  padding: 70px 0;
 }
 .consultation-content {
   display: flex;
@@ -581,6 +580,10 @@ button {
 
 /* ============ FOOTER START ============ */
 .footer {
+  padding-top: 70px;
+  padding-bottom: 18px;
+}
+.footer-wrap {
   padding-top: 18px;
   padding-bottom: 38px;
   text-align: center;
@@ -589,7 +592,7 @@ button {
 }
 .footer__title {
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-bottom: 22px;
 }
 .social-media {
   margin-bottom: 25px;
@@ -600,16 +603,17 @@ button {
 .footer__link {
   border: 1px solid #fff;
   border-radius: 50%;
-  padding: 15px;
   transition: 0.3s;
   width: 42px;
+  font-size: 15px;
   height: 42px;
+  align-items: center;
+  justify-content: center;
 }
 .footer__link:hover {
   border: 1px solid #27c5dc;
   color: #27c5dc;
 }
-
 .footer__link:nth-child(n + 2) {
   margin-left: 15px;
 }
