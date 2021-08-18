@@ -323,26 +323,28 @@ button {
 }
 .menu__form-select {
   margin-right: 17px;
+  position: relative;
 }
 .menu__city-select {
-  position: relative;
   font-size: 15px;
   color: #fff;
   border: none;
   padding: 11px 15px;
   background-color: #2b2b2b;
   appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
   letter-spacing: 0.03em;
 }
-.menu__city-select::after {
-  content: "\25BC";
+.menu__form-select::after {
+  content: "▼";
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 160px;
+  top: 16px;
   z-index: 100;
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
+  font-size: 8px;
+  color: #27c5dc;
 }
 .menu__btn {
   font-size: 15px;
