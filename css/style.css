@@ -433,7 +433,8 @@ button {
   padding: 10px 47px;
   transition: 0.3s;
 }
-.intermediate-section__btn:hover {
+.intermediate-section__btn:hover,
+.intermediate-section__btn:focus-within {
   background: #0a6dc9;
   color: #fff;
 }
@@ -650,7 +651,8 @@ button {
   align-items: center;
   justify-content: center;
 }
-.footer__link:hover {
+.footer__link:hover,
+.footer__link:focus-within {
   border: 1px solid #27c5dc;
   color: #27c5dc;
 }
