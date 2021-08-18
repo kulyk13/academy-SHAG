@@ -525,6 +525,10 @@ button {
   border-radius: 0 0 30px 0;
   box-shadow: 0px 0px 0px #0066c5;
 }
+.program-block__btn img {
+  width: 42px;
+  height: 15px;
+}
 /* ============ PROGRAM SECTION END ============ */
 
 /* ============ BENEFITS SECTION START ============ */
