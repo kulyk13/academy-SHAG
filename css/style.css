@@ -390,3 +390,67 @@ button {
   margin-right: 20px;
 }
 /* ============ HERo END ============ */
+
+/* ============ INTERMEDIATE SECTION START ============ */
+.intermediate-section {
+  padding-top: 140px;
+  padding-bottom: 60px;
+  position: relative;
+  text-align: center;
+}
+.intermediate-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 800px;
+  height: 650px;
+  background: url("../img/section-pic2.webp") no-repeat calc(50% - 236px) -269px;
+}
+.intermediate-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 800px;
+  height: 650px;
+  background: url("../img/section-pic1.webp") no-repeat calc(50% + 155px) -250px;
+}
+.intermediate-section__text {
+  padding: 0 70px;
+  margin-bottom: 27px;
+}
+.intermediate-section__btn {
+  border: 3px solid #0a6dc9;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px 47px;
+  transition: 0.3s;
+}
+.intermediate-section__btn:hover {
+  background: #0a6dc9;
+  color: #fff;
+}
+/* ============ INTERMEDIATE SECTION END ============ */
+
+/* ============ OFFER SECTION START ============ */
+.offer-section {
+  padding: 70px 0;
+}
+.triggers-block {
+  display: flex;
+  justify-content: space-between;
+}
+.triggers-block__item {
+  width: 466px;
+  text-align: center;
+}
+.triggers-block__pic {
+  width: 466px;
+  height: 284px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+/* ============ OFFER SECTION END ============ */
