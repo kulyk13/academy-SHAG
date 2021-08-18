@@ -445,6 +445,7 @@ button {
 .triggers-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .triggers-block__item {
   width: 466px;
@@ -539,6 +540,7 @@ button {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
 }
 .benefits-block__item {
   width: 344px;
