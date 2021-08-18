@@ -198,6 +198,7 @@ button {
   max-width: 1010px;
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
 }
 .container-wide {
   max-width: 1470px;
@@ -401,21 +402,21 @@ button {
   position: relative;
   text-align: center;
 }
-.intermediate-section::before {
+.intermediate-section > .container::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -140px;
+  left: -254px;
   z-index: -1;
   width: 800px;
   height: 650px;
   background: url("../img/section-pic2.webp") no-repeat calc(50% - 236px) -269px;
 }
-.intermediate-section::after {
+.intermediate-section > .container::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -140px;
+  right: -254px;
   z-index: -1;
   width: 800px;
   height: 650px;
@@ -462,13 +463,12 @@ button {
 /* ============ PROGRAM SECTION START ============ */
 .program-section {
   padding: 70px 0;
-  position: relative;
 }
-.program-section::after {
+.program-section > .container-wide::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -70px;
+  right: -24px;
   width: 1000px;
   height: 1100px;
   z-index: -1;

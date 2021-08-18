@@ -20,6 +20,7 @@
         href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
         crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -98,7 +99,7 @@
     </header>
     <section class="hero">
         <div class="container">
-            <div class="hero__content">
+            <div data-aos="fade-right" class="hero__content">
                 <h1 class="hero__title section-title">Интенсивные программы
                     <span>в STEP IT
                         Academy</span>
@@ -119,7 +120,7 @@
     </section>
     <section class="intermediate-section">
         <div class="container">
-            <p class="intermediate-section__text">
+            <p data-aos="fade-up" class="intermediate-section__text">
                 Мы уверены, что каждый должен
                 развиваться и получать знания и навыки, необходимые для
                 работы в
@@ -128,13 +129,15 @@
                 усердие и
                 дисциплина. Остальное мы берем на себя.
             </p>
-            <a href="#" class="intermediate-section__btn">Записаться</a>
+            <a data-aos="fade-up" href="#"
+                class="intermediate-section__btn">Записаться</a>
         </div>
     </section>
     <section class="offer-section">
         <div class="container container-wide">
             <h2 class="offer-section__title section-title">Мы предлагаем</h2>
-            <div class="triggers-block">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                class="triggers-block">
                 <div class="triggers-block__item">
                     <img src="img/offer-card-pic1.webp" alt="trigger picture"
                         width="1" height="1" class="triggers-block__pic"
@@ -215,7 +218,7 @@
         <div class="container container-wide">
             <h2 class="benfits-section__title section-title">Преимущества</h2>
             <div class="benefits-block">
-                <div class="benefits-block__item">
+                <div data-aos="zoom-in" class="benefits-block__item">
                     <img src="img/benefit-icon1.svg" alt="benefits block icon"
                         class="benefits-block__pic" width="1" height="1"
                         loading="lazy">
@@ -223,7 +226,7 @@
                         Практика. Работа над своими проектами
                     </h3>
                 </div>
-                <div class="benefits-block__item">
+                <div data-aos="zoom-in-up" class="benefits-block__item">
                     <img src="img/benefit-icon2.svg" alt="benefits block icon"
                         class="benefits-block__pic" width="1" height="1"
                         loading="lazy">
@@ -231,7 +234,7 @@
                         Преподаватели-практики
                     </h3>
                 </div>
-                <div class="benefits-block__item">
+                <div data-aos="zoom-in-down" class="benefits-block__item">
                     <img src="img/benefit-icon3.svg" alt="benefits block icon"
                         class="benefits-block__pic" width="1" height="1"
                         loading="lazy">
@@ -239,7 +242,7 @@
                         Атмосфера развития и командной работы
                     </h3>
                 </div>
-                <div class="benefits-block__item">
+                <div data-aos="zoom-in-left" class="benefits-block__item">
                     <img src="img/benefit-icon4.svg" alt="benefits block icon"
                         class="benefits-block__pic" width="1" height="1"
                         loading="lazy">
@@ -253,7 +256,7 @@
     <section class="get-consultation">
         <div class="container container-huge">
             <div class="consultation-content">
-                <img src="img/woman.webp" alt="woman"
+                <img data-aos="fade-right" src="img/woman.webp" alt="woman"
                     class="get-consultation__fisrt-pic" width="1" height="1"
                     loading="lazy">
                 <div class="get-consultation__offer">
@@ -272,9 +275,9 @@
                         Получить консультацию
                     </a>
                 </div>
-                <img src="img/consultation.webp" alt="consultation"
-                    class="get-consultation__second-pic" width="1" height="1"
-                    loading="lazy">
+                <img data-aos="fade-left" src="img/consultation.webp"
+                    alt="consultation" class="get-consultation__second-pic"
+                    width="1" height="1" loading="lazy">
             </div>
         </div>
     </section>
@@ -307,6 +310,12 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
 </body>
 
 </html>
