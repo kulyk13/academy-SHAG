@@ -556,3 +556,64 @@ button {
   margin-bottom: 14px;
 }
 /* ============ BENEFITS SECTION END ============ */
+
+/* ============ GET CONSULTATION SECTION START ============ */
+.get-consultation {
+  padding-top: 70px;
+  padding-bottom: 140px;
+}
+.consultation-content {
+  display: flex;
+}
+.get-consultation__first-pic {
+  width: 258px;
+  height: 647px;
+  border-radius: 30px;
+}
+.get-consultation__offer {
+  max-width: 519px;
+}
+.get-consultation__second-pic {
+  width: 1110px;
+  height: 647px;
+}
+/* ============ GET CONSULTATION SECTION END ============ */
+
+/* ============ FOOTER START ============ */
+.footer {
+  padding-top: 18px;
+  padding-bottom: 38px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.footer__title {
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.social-media {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer__link {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 15px;
+  transition: 0.3s;
+  width: 42px;
+  height: 42px;
+}
+.footer__link:hover {
+  border: 1px solid #27c5dc;
+  color: #27c5dc;
+}
+
+.footer__link:nth-child(n + 2) {
+  margin-left: 15px;
+}
+.footer__copyright {
+  font-size: 11px;
+}
+/* ============ FOOTER END ============ */
