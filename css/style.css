@@ -357,3 +357,36 @@ button {
   background-color: #2b2b2b;
 }
 /* ============ HEADER END ============ */
+
+/* ============ HERO START ============ */
+.hero {
+  background: url("../img/hero-pic.webp") no-repeat 50% 50% / cover;
+  padding-top: 90px;
+  padding-bottom: 260px;
+  color: #fff;
+}
+.hero__content {
+  max-width: 750px;
+  padding-left: 3px;
+}
+.hero__title {
+  font-size: 50px;
+  margin-bottom: 22px;
+}
+.hero__title span {
+  font-weight: 300;
+}
+.hero__text {
+  padding-left: 30px;
+  padding-right: 180px;
+  border-left: 3px solid #27c5dc;
+  line-height: 1.16;
+  margin-bottom: 20px;
+}
+.subparagraph {
+  display: flex;
+}
+.hero__icon {
+  margin-right: 20px;
+}
+/* ============ HERo END ============ */
