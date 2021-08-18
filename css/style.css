@@ -252,6 +252,7 @@ button {
 }
 .action-block {
   display: flex;
+  margin-bottom: -1px;
 }
 .action-block__btn {
   width: 200px;
@@ -286,7 +287,7 @@ button {
 .change-language__btn {
   color: #c1c1c1;
   font-size: 15px;
-  line-height: 2;
+  line-height: 1.8;
   text-transform: uppercase;
   margin: 0 5px;
   border-bottom: 3px solid transparent;
@@ -313,9 +314,8 @@ button {
   margin-left: -12px;
 }
 .navbar__link {
-  padding: 8px 12px;
+  padding: 11px 12px;
   transition: 0.3s;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .navbar__link:hover {
@@ -329,11 +329,10 @@ button {
   font-size: 15px;
   color: #fff;
   border: none;
-  padding: 10px 15px 10px 15px;
+  padding: 11px 15px;
   background-color: #2b2b2b;
   appearance: none;
   letter-spacing: 0.03em;
-  line-height: 1.5;
 }
 .menu__city-select::after {
   content: "\25BC";
@@ -348,7 +347,7 @@ button {
 .menu__btn {
   font-size: 15px;
   border: none;
-  padding: 8px 13px;
+  padding: 11px 13px;
   transition: 0.3s;
   margin-left: 12px;
   letter-spacing: 0.02em;
@@ -559,28 +558,59 @@ button {
 
 /* ============ GET CONSULTATION SECTION START ============ */
 .get-consultation {
-  padding: 70px 0;
+  padding: 70px 0 145px 0;
 }
 .consultation-content {
   display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
 }
-.get-consultation__first-pic {
+.get-consultation__fisrt-pic {
+  position: absolute;
+  top: 0;
+  left: -21%;
+  z-index: 10;
   width: 258px;
   height: 647px;
+  object-fit: cover;
   border-radius: 30px;
 }
 .get-consultation__offer {
-  max-width: 519px;
+  max-width: 610px;
+  padding-left: 90px;
+  margin-left: -884px;
+}
+.get-consultation__title {
+  margin-bottom: 40px;
+}
+.get-consultation__text {
+  margin-bottom: 40px;
+  padding-right: 17px;
+}
+.get-consultation__btn {
+  font-weight: 700;
+  background: #0066c5;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #fff;
+  padding: 15px 52px;
+  letter-spacing: 0.03em;
 }
 .get-consultation__second-pic {
+  position: absolute;
+  top: 0;
+  right: -24%;
   width: 1110px;
   height: 647px;
+  object-fit: cover;
 }
 /* ============ GET CONSULTATION SECTION END ============ */
 
 /* ============ FOOTER START ============ */
 .footer {
-  padding-top: 70px;
+  padding-top: 145px;
   padding-bottom: 18px;
 }
 .footer-wrap {
