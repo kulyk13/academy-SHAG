@@ -179,7 +179,6 @@ body {
   font-weight: 400;
   line-height: 1.2;
   background-color: var(--bg-color);
-  overflow-x: hidden;
 }
 a,
 span,
@@ -192,6 +191,9 @@ span,
 button {
   background-color: transparent;
   color: #fff;
+}
+.site-wrapper {
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
@@ -841,19 +843,11 @@ button {
   }
   .benefits-block__item {
     width: 360px;
-    padding: 0px 75px;
+    padding: 25px 75px;
   }
   .benefits-block__item:nth-child(n + 2) {
-    margin-top: 50px;
-  }
-  .benefits-block__item:nth-child(n + 2)::before {
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: 25%;
-    width: 183px;
-    height: 3px;
-    background-color: #f2f6f9;
+    border-top: 3px solid #f2f6f9;
+    margin-top: 0;
   }
   .get-consultation {
     padding-bottom: 70px;
@@ -873,5 +867,106 @@ button {
 }
 
 @media (max-width: 575.98px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-top__logo-link {
+    margin-left: 0;
+  }
+  .action-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .action-block__btn {
+    margin-left: 0;
+  }
+  .menu-wrap {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__form-select {
+    display: flex;
+    margin-right: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__btn {
+    margin-left: 0;
+  }
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 150px;
+  }
+  .hero__text {
+    padding-left: 15px;
+    padding-right: 40px;
+  }
+  .intermediate-section__text {
+    padding: 0 27px;
+  }
+  .triggers-block__item {
+    width: 270px;
+  }
+  .triggers-block__pic {
+    width: 270px;
+    height: 165px;
+  }
+  .program-block__card {
+    width: 270px;
+  }
+  .program-block__pic {
+    width: 270px;
+    height: 108px;
+  }
+  .program-block__card::before {
+    top: 15px;
+    width: 110px;
+    height: 41px;
+    padding: 12px 5px 5px 21px;
+  }
+  .program-block__title {
+    padding: 10px 0 10px 15px;
+    font-size: 12px;
+  }
+  .program-block__btn {
+    padding: 22px 24px;
+  }
+  .program-block__btn img {
+    width: 32px;
+    height: 11px;
+  }
+  .benefits-block__item {
+    width: 270px;
+  }
+  .get-consultation__offer {
+    max-width: 270px;
+    margin-left: -1115px;
+  }
+  .get-consultation__btn {
+    font-size: 12px;
+  }
+  .get-consultation__second-pic {
+    right: 18%;
+  }
+  footer {
+    padding-top: 70px;
+  }
 }
 /* ============ ADAPTIVE END ============ */
