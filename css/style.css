@@ -167,8 +167,6 @@ html {
 :root {
   --bg-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 0%);
-  --header-text-color: hsl(0, 0%, 59%);
-  --brand-color: hsl(0, 0%, 100%);
 }
 body {
   color: var(--text-color);
