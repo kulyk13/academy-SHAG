@@ -821,6 +821,55 @@ button {
   }
 }
 @media (max-width: 767.98px) {
+  .action-block__btn {
+    padding: 18px 34px 14px 35px;
+  }
+  .triggers-block__item {
+    width: 360px;
+  }
+  .triggers-block__item:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .benefits-block {
+    justify-content: center;
+  }
+  .benefits-block::before,
+  .benefits-block::after {
+    height: 0;
+    width: 0;
+  }
+  .benefits-block__item {
+    width: 360px;
+    padding: 0px 75px;
+  }
+  .benefits-block__item:nth-child(n + 2) {
+    margin-top: 50px;
+  }
+  .benefits-block__item:nth-child(n + 2)::before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 25%;
+    width: 183px;
+    height: 3px;
+    background-color: #f2f6f9;
+  }
+  .get-consultation {
+    padding-bottom: 70px;
+  }
+  .get-consultation__offer {
+    max-width: 435px;
+    padding-left: 0px;
+    margin-left: -935px;
+  }
+  .get-consultation__title.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .get-consultation__second-pic {
+    right: 6%;
+  }
 }
 
 @media (max-width: 575.98px) {
