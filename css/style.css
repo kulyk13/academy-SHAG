@@ -474,7 +474,7 @@ button {
   height: 1100px;
   z-index: -1;
   transform: rotateZ(-3.5deg);
-  background: url("../img/prog-sec-pic.webp") no-repeat calc(50% - 50px) 178px;
+  background: url(../img/prog-sec-pic.webp) no-repeat calc(50% - 22px) 108px;
 }
 .programs-block {
   display: flex;
@@ -663,3 +663,166 @@ button {
   font-size: 11px;
 }
 /* ============ FOOTER END ============ */
+
+/* ============ ADAPTIVE START ============ */
+@media (max-width: 1399.98px) {
+  .triggers-block__item {
+    width: 350px;
+  }
+  .triggers-block__pic {
+    width: 350px;
+    height: 213px;
+  }
+  .program-block__card {
+    width: 610px;
+  }
+  .program-block__pic {
+    width: 610px;
+    height: 244px;
+  }
+  .program-block__title {
+    font-size: 16px;
+  }
+  .program-section > .container-wide::after {
+    background: url(../img/prog-sec-pic.webp) no-repeat calc(50% + 47px) 148px;
+  }
+  .benefits-block__item {
+    width: 274px;
+  }
+}
+
+@media (max-width: 1299.98px) {
+  .program-block__card {
+    width: 560px;
+  }
+  .program-block__pic {
+    width: 560px;
+    height: 224px;
+  }
+  .program-section > .container-wide::after {
+    background: url(../img/prog-sec-pic.webp) no-repeat calc(50% + 100px) 118px;
+  }
+}
+@media (max-width: 1199.98px) {
+  body {
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .intermediate-section__text {
+    padding: 0 110px;
+  }
+  .intermediate-section > .container::before {
+    top: -108px;
+    left: -109px;
+  }
+  .intermediate-section > .container::after {
+    top: -155px;
+    right: -146px;
+  }
+  .triggers-block__item {
+    width: 306px;
+  }
+  .triggers-block__pic {
+    width: 300px;
+    height: 183px;
+  }
+  .program-section > .container-wide::after {
+    background: url(../img/prog-sec-pic.webp) no-repeat calc(50% + 205px) 72px;
+  }
+  .program-block__card {
+    width: 475px;
+  }
+  .program-block__pic {
+    width: 475px;
+    height: 190px;
+  }
+  .program-block__title {
+    padding: 20px 0 18px 37px;
+  }
+  .program-block__btn {
+    padding: 28px 24px;
+  }
+  .benefits-block__item {
+    width: 236px;
+    padding: 0 38px;
+  }
+  .get-consultation__second-pic {
+    width: 875px;
+    height: 510px;
+    right: -6%;
+  }
+}
+@media (max-width: 991.98px) {
+  .action-part {
+    max-width: 230px;
+  }
+  .action-block {
+    align-items: flex-end;
+  }
+  .menu-wrap {
+    justify-content: center;
+  }
+  .intermediate-section {
+    padding-top: 100px;
+  }
+  .triggers-block {
+    justify-content: center;
+  }
+  .triggers-block__item:nth-child(2) {
+    margin-left: 30px;
+  }
+  .triggers-block__item:nth-child(n + 3) {
+    margin-top: 20px;
+  }
+  .programs-block {
+    justify-content: center;
+  }
+  .program-block__card:nth-child(n + 2) {
+    margin-top: 20px;
+  }
+  .benefits-block {
+    position: relative;
+  }
+  .benefits-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 400px;
+    background-color: #f2f6f9;
+  }
+  .benefits-block::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 940px;
+    height: 3px;
+    background-color: #f2f6f9;
+  }
+  .benefits-block__item {
+    width: 315px;
+    padding: 0px 68px;
+  }
+  .benefits-block__item {
+    width: 315px;
+    padding: 0px 68px;
+  }
+  .benefits-block__item:nth-child(n + 3) {
+    margin-top: 50px;
+  }
+  .benefits-block__item:nth-child(n + 2)::before {
+    height: 0;
+    width: 0;
+  }
+}
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
+/* ============ ADAPTIVE END ============ */
